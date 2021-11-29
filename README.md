@@ -19,11 +19,17 @@ Reads a pickled sklearn model into memory when the Web app is started and return
       ii. Go to http address to check if its working
 
 4.Create a dockerfile which does the below items
+
        i. Install base image as python:3.6.6-slim
+
       ii. Move local python code to /app in container
+
       iii.Set WORKDIR to /app  
+
        iv.Install packages in requirements.txt
+
         v.Expose the port 5000 for webapp endpoint
+
        vi.Define run command as streamlit run app.py
           
 5.Build docker image
