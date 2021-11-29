@@ -33,9 +33,13 @@ Reads a pickled sklearn model into memory when the Web app is started and return
        vi.Define run command as streamlit run app.py
           
 5.Build docker image
+
 6.Run docker container
+
 7.Go to http address to check if its working
+
 8.Push the docker container to docker registry to production
+
 
 ## Dockerizing 
 
@@ -48,28 +52,29 @@ Reads a pickled sklearn model into memory when the Web app is started and return
 Note: Docker tag or id should be always specified in the end of the docker command to avoid issues
 
 1.Build docker image from Dockerfile
-   
+
   docker build . -t "<app name>"
 
 2.Run the docker container after build
 
-   docker run -p 8000:5000 "<app name>"
+  docker run -p 8000:5000 "<app name>"
 
 3.Show all running containers
 
-   docker ps
+  docker ps
 
 4.Open bash in a running docker container (optional)
-
-   docker exec -ti <containerid> bash
+  
+  docker exec -ti <containerid> bash
 
 5.Kill and remove running container
-
-   docker rm <containerid>
+  
+  docker rm <containerid>
 
 ## Deployment 
 
 - Web App Working 
+
 ![](4.png)
 
 
