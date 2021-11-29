@@ -53,7 +53,7 @@ Note: Docker tag or id should be always specified in the end of the docker comma
 
 1.Build docker image from Dockerfile
 
-  docker build . -t app_name
+   docker build . -t app_name
 
 2.Run the docker container after build
 
