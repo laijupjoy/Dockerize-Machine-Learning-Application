@@ -53,11 +53,11 @@ Note: Docker tag or id should be always specified in the end of the docker comma
 
 1.Build docker image from Dockerfile
 
-  docker build . -t "<app name>"
+  docker build . -t app_name
 
 2.Run the docker container after build
 
-  docker run -p 5000:5000 "<app name>"
+  docker run -p 5000:5000 app_name
 
 3.Show all running containers
 
@@ -65,11 +65,11 @@ Note: Docker tag or id should be always specified in the end of the docker comma
 
 4.Open bash in a running docker container (optional)
   
-  docker exec -ti <containerid> bash
+  docker exec -ti container_id bash
 
 5.Kill and remove running container
   
-  docker rm <containerid>
+  docker rm containerid
 
 ## Deployment 
 
