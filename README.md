@@ -57,7 +57,7 @@ Note: Docker tag or id should be always specified in the end of the docker comma
 
 2.Run the docker container after build
 
-  docker run -p 8000:5000 "<app name>"
+  docker run -p 5000:5000 "<app name>"
 
 3.Show all running containers
 
