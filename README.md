@@ -15,6 +15,7 @@ Reads a pickled sklearn model into memory when the Web app is started and return
 3. Create a separate "app.py" file which will build the web service using Streamlit
      
       i. To run streamlit run app.py
+
       ii. Go to http address to check if its working
 
 4.Create a dockerfile which does the below items
